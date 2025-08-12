@@ -25,8 +25,13 @@ SRCS	=	src/utils/borrar.c \
 			src/utils/error.c \
 			src/utils/free.c \
 			src/utils/initialize.c \
+			src/utils/strnum.c \
 			src/parser/parser.c \
 			src/parser/read_cub_file.c \
+			src/parser/parse_config_line.c \
+			src/parser/parse_map.c \
+			src/parser/parser_utils.c \
+			src/parser/validate_map.c \
 			get_next_line/src/get_next_line.c \
 
 OBJS	= $(SRCS:.c=.o)
